@@ -1,6 +1,11 @@
 <header>
     <a href="{% url 'home' %}">Home</a> | <a href="{% url 'about' %}">About</a>
 </header>
+<style>
+    *{ margin:0; padding:0; border:0; }
+    HTML ,BODY{ height:100%; margin:0; padding:0; border:0; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -o-font-smoothing: antialiased; -ms-webkit-font-smoothing: antialiased;}
+    BODY{ text-align:center; }    
+</style>
 
 {% block content %}
 {% endblock content %}
